@@ -71,10 +71,10 @@ body{
 
  /* footer */
 
- .footer{
+ #footer-start{
     height: 669px;
  }
- ul{
+ /* ul{
     list-style: none;
  }
  ul>li>a{
@@ -84,4 +84,74 @@ body{
  }
  .left>ul>li{
     padding-bottom: 20px;
+ } */
+
+
+ body{
+     background-color: black;
+     color: white;
  }
+ a{
+     color: white;
+     text-decoration: none;
+   
+ }
+ #list-footer{
+    color:#908b8b;
+    margin-top: 356px
+
+ }
+ #footer-2 ul{
+     list-style: none;
+     
+ }
+ #footer-2 ul li a{
+     text-decoration: none;
+     
+ }
+
+
+
+ /* ----------------------------------------------- */
+ .last-container{
+     font-size:  0.9375rem;
+font-weight: 700;
+ }
+
+ @media (max-width:768px) {
+     #footer-3{
+        display: flex;
+        justify-content: center;
+        font-size:  0.8rem;
+     }
+     #footer-2{
+         font-size:  0.8rem;
+     }
+     #footer-flex{
+         display: flex;
+         flex-direction: column;
+      
+     }
+  
+ }
+ @media (max-width:1199px) {
+     #footer1-btn{
+         margin-left: 2px !important;
+     }
+     
+ }
+ #footer-1{
+ font-size: 1.25rem;
+
+ }
+ .right span{
+     font-size:  0.9375rem;
+ }
+ #footer1-btn{
+     background-color: black;
+     font-size:  0.9375rem;
+color: white;
+border: none;
+margin-left: 52px;
+ }
+
