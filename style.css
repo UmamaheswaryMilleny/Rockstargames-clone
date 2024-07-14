@@ -100,6 +100,22 @@ body{
   }
 
 
+  @media (max-width:1199px) {
+.navbar-collapse{
+    padding-left: 52px;
+   
+}
+
+    } 
+
+    @media (min-width:1199px) {
+        .navbar-collapse{
+            padding-left: 194px;
+        }
+        
+            } 
+
+
 
 
 

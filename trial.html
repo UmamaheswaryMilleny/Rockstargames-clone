@@ -19,126 +19,240 @@ body{
     color: white;
 }
 
-.cardsec{
-    border:1px solid  #313131;
-    width: 22rem !important;
-    height: 40rem;
-    background-color: black;
- }
- .card-body{
-    background-color: black;
-    color: white;
-   
-     
- }
+
 /* ------------------------------------------------------ */
+@media (max-width:1199px) {
+.navbar-collapse{
+    padding-left: 52px;
+   
+}
+
+    } 
+
+    @media (min-width:1199px) {
+        .navbar-collapse{
+            padding-left: 194px;
+        }
+        
+            } 
+            .navbar{
+    height: 80px;
+    border-bottom: 1px solid #313131;
+}
+.nav-link {
+    color: white;
+}
+.btn{
+    width: 139px;
+    height: 36px;
+    color: black;
+
+}
+/* ------------------------------------------------------------------- */
+.carousel-inner{
+    /* margin-left: -12px; */
+}
+.secbtn{
+    width: 244px;
+    height: 61px;
+}
+.secbtn:hover{
+    background-color: #fcaf17;
+    color: black !important;
+    border: none;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
     </style>
     <title>Document</title>
 </head>
-<div class="container mt-5">
-  <h3>Neswire</h3>
-  <div class="row">
-    <div class="col-lg-4 col-sm-6">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card1.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 11, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            Curb Lawlessness in the New Vapid Dominator FX Interceptor and
-            Declasse Impaler LX Cruiser
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card2.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 4, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            Paint the Town Red, White, and Blue With GTA Online Independence
-            Day Bonuses
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card3.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 2, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            Naturalists Earn Triple Rewards and Bonuses for Sampling
-            Wildlife and Taking Part in Naturalist Free Roam Events
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4 col-sm-6">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card4.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 25, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            Get More in GTA Online: Bottom Dollar Bounties With GTA+
-            Membership
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card5.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 25, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            GTA Online: Bottom Dollar Bounties Out Now
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <div class="card mt-5 cardsec" style="width: 18rem">
-        <img src="assets/images/card6.jpg" class="card-img-top" alt="..." />
-        <div class="card-body mt-4 ms-2">
-          <span class="card-title">GTA Online</span>
-          <span class="card-subtitle mb-2 text-white-50 ps-2"
-            >July 21, 2024</span
-          >
-          <p class="card-text fw-bold fs-4 mt-2">
-            CircoLoco Records Presents If You Want My Loving from Prospa
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="sec-end">
-    <button id="sec-end"
-    type="button"
-    class="btn  mt-5 justify-content-between fw-bold text-white"
-  >
-    View More
-  </button>
-   </div>
-</div>
+<body>
+  
 
+<nav class="navbar navbar-expand-lg bg-black fixed top">
+  <div class="container">
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+  </button>
+    <a class="navbar-bran" href="#"
+      ><img src="assets/svg/logo.svg" alt=""
+    /></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"
+>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" aria-current="page" href="#">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#">Neswire</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#">Downloads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#">Store</a>
+        </li>
+        <button type="button" class="btn btn-warning" style="margin-left: 141px;
+">GET LAUNCHER</button>
+        <li class="nav-item">
+          <a class="nav-link mx-lg-2" href="#"
+            ><img src="assets/svg/search.svg" alt="" width="25"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <a href="#" class="login-button"
+      ><img src="assets/svg/profile.svg" alt="" width="30"
+    /></a>
+
+  </div>
+</nav>
+<!-- -------------------------------------------------------------------------------- -->
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-8 col-sm-12" style="padding: 0 !important;">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators ">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/slide1.webp"
+                class="d-block w-100 img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/slide2.webp"
+                class="d-block w-100"
+                alt="..."
+             
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/slide3.webp"
+                class="d-block w-100"
+                alt="..."
+         
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- --------------------- -->
+      <div class="col-xl-4 col-sm-12">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="fw-bold pt-5">Grand Theft AUto VI</p>
+        <h2 class="fw-bold">Trailer1</h2>
+        <button
+          type="button"
+          class="btn btn-outline-light text-white fw-bold secbtn mt-5"
+        >
+          WATCH NOW
+        </button>
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <p class="fw-bold pt-5">Grand Theft AUto VI</p>
+        <h2 class="fw-bold">Trailer1</h2>
+        <button
+          type="button"
+          class="btn btn-outline-light text-white fw-bold secbtn mt-5"
+        >
+          WATCH NOW
+        </button> -->
+      </div>
+    </div>
+  </div>
 
 
 
