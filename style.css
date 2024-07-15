@@ -1,254 +1,154 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
+  }
+  body{
     background-color:#000000;
     color: white;
-}
-
-/* navbar start here */
-/* ------------------------------------------------------ */
-@media (max-width:1199px) {
-    .navbar-collapse{
-        padding-left: 52px;
-       
-    }
-    
-        } 
-    
-        @media (min-width:1199px) {
-            .navbar-collapse{
-                padding-left: 194px;
-            }
-            
-                } 
-                .navbar{
-        height: 80px;
-        border-bottom: 1px solid #313131;
-    }
-    .nav-link {
-        color: white;
-    }
-    .btn{
-        width: 139px;
-        height: 36px;
-        color: black;
-    
-    }
-
-/* navbar end here */
-
-
- /* hero section tart here */
- .secbtn{
-    width: 244px;
-    height: 61px;
-}
-.secbtn:hover{
-    background-color: #fcaf17;
-    color: black !important;
-    border: none;
-}
-
- /* hero section end here */
-
- /* section two start here */
- .cardsec{
-    border:1px solid  #313131;
-    width: 22rem !important;
-    height: 40rem;
-    background-color: black;
- }
- .card-body{
-    background-color: black;
-    color: white;
-   
-     
- }
- /* section two end here */
-
- /* section three starts here */
-
- .img-fluid{
-    /* border-radius: 12px; */
- }
- .cardthre{
-    border: none;
-    width: 15.5rem !important;
-    /* height: 15.2rem !important; */
- }
-
-
-.sec-end{
-    text-align: center;
-    margin-bottom: 60px;
-}
-/* #sec-end::after{
-    content: "";
-    background: yellow;
-        height: 4px;
-} */
-
-#sec-end::after {
-    content: "";
-    height: 4.5px;
-    border-radius: 6px;
-    width: 95px;
-    background: #fcaf17;
-    position: absolute;
-    left: 585px;
-    top: 3043px;
-
-   
   }
   
-  #sec-end:hover {
-        background-color: #fcaf17;
-        /* transition: 0.5s; */
-        width: 107px;
-        color: black !important;
-  }
-
-
+  
+  /* navbar css starts here */
   @media (max-width:1199px) {
-.navbar-collapse{
+  .navbar-collapse{
     padding-left: 52px;
    
+  }
+  #footer1-btn{
+    margin-left: 2px !important;
 }
-
+  
     } 
-
+  
     @media (min-width:1199px) {
         .navbar-collapse{
             padding-left: 194px;
         }
         
             } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* footer */
-
- #footer-start{
-    background-color:black;
-;
-    /* height: 669px; */
- }
- /* ul{
-    list-style: none;
- }
- ul>li>a{
-    text-decoration: none;
-    color:#908b8b;
-    padding: 0px 15px;
- }
- .left>ul>li{
-    padding-bottom: 20px;
- } */
-
-
-
- a{
-     color: white;
-     text-decoration: none;
+            .navbar{
+    height: 80px;
+    border-bottom: 1px solid #313131;
+  }
+  .nav-link {
+    color: white;
+  }
+  .btn{
+    width: 139px;
+    height: 36px;
+    color: black;
+  
+  }
+  /* navbar css ends here */
+  
+  /* css first page hero section starts here  */
+  
+  .secbtn{
+    width: 244px;
+    height: 61px;
+  }
+  .secbtn:hover{
+    background-color: #fcaf17;
+    color: black !important;
+    border: none;
+  }
+  
+  
+  /* css first page hero section ends here  */
+  
+  
+  /* css second page cards starts here */
+  
+  .cardsec{
+    border:1px solid  #313131;
+    width: 22rem !important;
+    height: 40rem;
+    background-color: black;
+  }
+  .card-body{
+    background-color: black;
+    color: white;
    
- }
- #last-footer{
-    
-    /* margin-top: 350px */
-    padding-top: 50px;
-    /* padding-bottom: 16px; */
-    height: 153px !important;
-
- }
- #list-footer{
-   
-    list-style: none;
- }
- #list-footer li a{
-    color:#908b8b;
- }
- ul{
-     list-style: none;
      
- }
- #footer-3 ul li a{
-     text-decoration: none;
-     
- }
-
-
- .last-container{
-    font-size:  0.9375rem;
-font-weight: 700;
-}
-
-
-@media (max-width:1199px) and (min-width:992px){
-   #slide-img1{
-       width: 460px;
-
-   }
-   #slide{
-       /* display: flex; */
-       /* flex-direction: column;
-       align-content: center; */
-   }
-   }
-
-
-   @media (max-width:991px) and (min-width:768px){ 
-       .cardthre{
-           width: 360px !important;
-           /* background-color: #fcaf17; */
+  }
+  
+  .cardthre{
+    border: none;
+    width: 15.5rem !important;
+  
+  }
+  
+  /*css second page cards ends here */
+  
+  
+  /* button css starts here */
+  #sec-end{
+    font-size: 20px;
+    position: relative;
+  }
+  #sec-end:hover {
+        background-color: #fcaf17;
+        /* transition: 0.5s; */
+        /* width: 107px; */
+        color: black !important;
+  }
+  #sec-end::after {
+    content: "";
+    height: 4.5px;
+    border-radius: 6px;
+    width: 102px;
+    background: #fcaf17;
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    /* transition: 0.5s; */
    
-       } 
+  }
+  
+  /* button css ends here */
+  
+  /* css featured section starts here */
+  #img-fe{
+    border-radius: 10px;
+  }
+  #img-fe {
+  display: block; /* Show by default */
+  }
+  
+  @media (min-width: 798px) {
+  #img-fe2 {
+    display: none; /* Hide on screens wider than 797px */
+  }
+  }
+  
+  /* Show img-fe2 only on screens wider than or equal to 798px */
+  #img-fe {
+  display: none; /* Hide by default */
+  }
+  
+  @media (min-width: 798px) {
+  #img-fe {
+    display: block; /* Show on screens wider than or equal to 798px */
+  }
+  }
+  
 
-   }
-       @media (max-width:767px) {
-           #slide-img1{
-               width: 260px;
-       background-color: #fcaf17;
-           }
-      
-           } 
-
- /* ----------------------------------------------- */
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- @media (max-width:768px) {
+  
+  
+   
+  /* css featured section ends here */
+  
+  
+  
+  /* foooter */
+  @media (max-width:768px) {
      #footer-2-2{
         display: flex;
         justify-content: center;
+        align-items: end;
         /* font-size:  0.8rem; */
      }
-
+  
      .last-container{
         font-size:  12px;
         /* width: 20vw; */
@@ -268,52 +168,81 @@ font-weight: 700;
      }
      #footer-2{
         
-padding-top: 15px;
+  padding-top: 15px;
      }
      #footer-3{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 15px;
-
+  
      }
   
- }
- @media (max-width:1199px) {
-     #footer1-btn{
-         margin-left: 2px !important;
-     }
-     
- }
- #footer-1{
- font-size: 1.25rem;
+  }
 
- }
- .right span{
+  #footer-1{
+  font-size: 1.25rem;
+  
+  }
+  .right span{
      font-size:  0.9375rem;
- }
- #footer1-btn{
+  }
+  #footer1-btn{
      background-color: black;
      font-size:  0.9375rem;
-color: white;
-border: none;
-margin-left: 52px;
-
-
- }
- #footer1-btn ul li >a{
+  color: white;
+  border: none;
+  margin-left: 52px;
+  
+  
+  }
+  #footer1-btn ul li >a{
     color: white;
- }
- .btn2{
+  }
+  .btn2{
     border: none;
- }
-
- #footer1-btn:active{
+  }
+  
+  #footer1-btn:active{
     outline: 1px solid white;
- }
- .show>li>a:hover{
+  }
+  .show>li>a:hover{
     color: black !important;
     /* background-color: #fcaf17; */
-
- }
- 
+  
+  }
+  
+  a{
+     color: white;
+     text-decoration: none;
+   
+  }
+  #last-footer{
+    
+    /* margin-top: 350px */
+    padding-top: 50px;
+    /* padding-bottom: 16px; */
+    height: 153px !important;
+  
+  }
+  #list-footer{
+   
+    list-style: none;
+  }
+  #list-footer li a{
+    color:#908b8b;
+  }
+  ul{
+     list-style: none;
+     
+  }
+  #footer-3 ul li a{
+     text-decoration: none;
+     
+  }
+  
+  
+  .last-container{
+    font-size:  0.9375rem;
+  font-weight: 700;
+  }

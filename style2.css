@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color:#000000;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  
+  /* navbar css starts here */
+  @media (max-width:1199px) {
+  .navbar-collapse{
+    padding-left: 52px;
+   
+  }
+  .first-p{
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .first-h{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  #footer1-btn{
+    margin-left: 2px !important;
+
+    
+}
+.secbtn{
+    position: relative;
+}
+  
+    } 
+  
+    @media (min-width:1199px) {
+        .navbar-collapse{
+            padding-left: 194px;
+        }
+        
+            } 
+            .navbar{
+    height: 80px;
+    border-bottom: 1px solid #313131;
+  }
+  .nav-link {
+    color: white;
+  }
+  .btn{
+    width: 139px;
+    height: 36px;
+    color: black;
+  
+  }
+
+/* -------------------------------------------------------- */
+
+
+  .secbtn{
+    width: 244px;
+    height: 61px;
+  }
+  .secbtn:hover{
+    background-color: #fcaf17;
+    color: black !important;
+    border: none;
+  }
+  /* ----------------------------------------------------- */
+
+  .cardsec{
+    border:1px solid  #313131;
+    /* width: 22rem !important;
+    height: 40rem; */
+    background-color: black;
+  }
+  .card-body{
+    background-color: black;
+    color: white;
+   
+     
+  }
+  
+  .cardthre{
+    border: none;
+    /* width: 15.5rem !important; */
+  
+  }
