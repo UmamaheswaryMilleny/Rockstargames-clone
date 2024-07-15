@@ -116,6 +116,36 @@ body{
 
   /* button css ends here */
 
+  /* css featured section starts here */
+  #img-fe{
+    border-radius: 10px;
+  }
+  #img-fe {
+  display: block; /* Show by default */
+}
+
+@media (min-width: 798px) {
+  #img-fe2 {
+    display: none; /* Hide on screens wider than 797px */
+  }
+}
+
+/* Show img-fe2 only on screens wider than or equal to 798px */
+#img-fe {
+  display: none; /* Hide by default */
+}
+
+@media (min-width: 798px) {
+  #img-fe {
+    display: block; /* Show on screens wider than or equal to 798px */
+  }
+}
+
+
+
+   
+  /* css featured section ends here */
+
     </style>
     <title>Document</title>
 </head>
@@ -364,6 +394,80 @@ body{
    </div>
 
 <!-- button ends here -->
+
+
+<!-- featured section starts here -->
+
+<!-- <div class="container mt-5">
+  <h3 class="mt-5">Featured Games</h3>
+  <img src="assets/images/full.png" class="img-fluid mt-5" alt="..." />
+</div> -->
+
+<!-- <div class="container mt-4" id="slide">
+  <h3 class="mt-5">Featured Games</h3>
+  <img src="assets/images/full.png" class="img-fluid mt-5" alt="..." />
+  <div class="row">
+    <div class="col-xl-3 col-6">
+      <div class="card cardthre" style="width: 18rem">
+        <img id="slide-img1"
+          src="assets/images/last-card1.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 col-6">
+      <div class="card cardthre" style="width: 18rem">
+        <img id="slide-img1"
+          src="assets/images/last-card2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+    <div class="col-xl-3  col-6">
+      <div class="card cardthre" style="width: 18rem">
+        <img id="slide-img1"
+          src="assets/images/last-card3.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+    <div class="col-xl-3 col-6">
+      <div class="card cardthre" style="width: 18rem">
+        <img id="slide-img1"
+          src="assets/images/last-card4.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+</div> -->
+  <!-- -------------------------------------------- -->
+<!-- <div class="sec-end">
+<button id="sec-end"
+type="button"
+class="btn  mt-5 justify-content-between fw-bold text-white"
+>
+View More
+</button>
+</div> -->
+<!--  -->
+<div class="container mt-5">
+  <h3 class="mt-5">Featured Games</h3>
+  <img src="assets/images/full.png" class="img-fluid mt-5" alt="..."  id="img-fe" style="border-radius: 10px;"/>
+  <img src="assets/images/slide1.webp" class="img-fluid mt-5" alt="..." id="img-fe2" style="border-radius: 10px;"/>
+<div class="row">
+  
+</div>
+
+
+</div>
+
+
+<!-- featured section ends here -->
 
 
 
