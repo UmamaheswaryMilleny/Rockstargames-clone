@@ -28,7 +28,7 @@
 
     
 }
-.secbtn{
+.btn{
     position: relative;
 }
   
@@ -86,3 +86,50 @@
     /* width: 15.5rem !important; */
   
   }
+  /* ------------------------------------ */
+  
+  #btn-middle{
+    border-bottom: 4px solid   #fcaf17;
+    border-radius: 1px;
+    width: 121px;
+    font-size: 20px;
+
+  }
+  #btn-middle:hover{
+    background-color: #fcaf17;
+    color: #000000 !important;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+
+
+  /* ----------------------------------------------- */
+
+    /* css featured section starts here */
+    #img-fe{
+      border-radius: 10px;
+    }
+    #img-fe {
+    display: block; /* Show by default */
+    }
+    
+    @media (min-width: 798px) {
+    #img-fe2 {
+      display: none; /* Hide on screens wider than 797px */
+    }
+    }
+    
+    /* Show img-fe2 only on screens wider than or equal to 798px */
+    #img-fe {
+    display: none; /* Hide by default */
+    }
+    
+    @media (min-width: 798px) {
+    #img-fe {
+      display: block; /* Show on screens wider than or equal to 798px */
+    }
+    }
+    
+  
+    
