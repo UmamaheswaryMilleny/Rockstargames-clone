@@ -8,29 +8,40 @@ body{
 }
 
 /* navbar start here */
-.navbar{
-    height: 80px;
-    border-bottom: 1px solid #313131;
-}
-.nav-link {
-    color: white;
-}
-.btn{
-    width: 139px;
-    height: 36px;
-    color: black;
-
-}
-
+/* ------------------------------------------------------ */
+@media (max-width:1199px) {
+    .navbar-collapse{
+        padding-left: 52px;
+       
+    }
+    
+        } 
+    
+        @media (min-width:1199px) {
+            .navbar-collapse{
+                padding-left: 194px;
+            }
+            
+                } 
+                .navbar{
+        height: 80px;
+        border-bottom: 1px solid #313131;
+    }
+    .nav-link {
+        color: white;
+    }
+    .btn{
+        width: 139px;
+        height: 36px;
+        color: black;
+    
+    }
 
 /* navbar end here */
 
 
  /* hero section tart here */
-.carousel-inner{
-    margin-left: -12px;
-}
-.secbtn{
+ .secbtn{
     width: 244px;
     height: 61px;
 }
