@@ -9,6 +9,54 @@ body {
 }
 
 /* navbar css starts here */
+.navbar-toggler{
+  border: none !important;
+color: black !important;
+}
+ /* Custom styling for scrollable images */
+.scrollable-images {
+display: none; /* Initially hide the scrollable images */
+overflow-x: auto;
+white-space: nowrap;
+max-height: 200px; /* Adjust max height as needed */
+margin-top: 10px;
+}
+.scrollable-images img {
+display: inline-block;
+max-width: 140px; /* Adjust max width of images */
+height: auto;
+margin-right: 10px; /* Adjust spacing between images */
+}
+
+/* Positioning for custom UI */
+.custom-ui {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%; /* Full width */
+background-color: #000000;
+padding: 10px;
+z-index: 1000; /* Ensure it's above navbar */
+display: none; /* Initially hide */
+scrollbar-color: black black;
+}
+.custom-ui.show {
+display: block; /* Show when toggled */
+}
+
+
+.custom-ui .form-inline .form-control {
+width:100%; 
+}
+.custom-ui .form-inline .btn {
+width: 100px;
+}
+.bg-dark {
+background-color: #000000 !important;}
+
+.nav-link{
+color: white !important;
+}
 @media (max-width: 1199px) {
   .navbar-collapse {
     padding-left: 52px;
@@ -47,7 +95,7 @@ body {
   color: black;
 }
 
-/* -------------------------------------------------------- */
+
 
 .secbtn {
   width: 244px;
@@ -58,12 +106,10 @@ body {
   color: black !important;
   border: none;
 }
-/* ----------------------------------------------------- */
+
 
 .cardsec {
   border: 1px solid #313131;
-  /* width: 22rem !important;
-height: 40rem; */
   background-color: black;
 }
 .card-body {
@@ -75,7 +121,7 @@ height: 40rem; */
   border: none;
   /* width: 15.5rem !important; */
 }
-/* ------------------------------------ */
+
 
 #btn-middle {
   border-bottom: 4px solid #fcaf17;
@@ -90,7 +136,7 @@ height: 40rem; */
   transition: 0.2s;
 }
 
-/* ----------------------------------------------- */
+
 
 /* css featured section starts here */
 #img-fe {
@@ -117,7 +163,7 @@ height: 40rem; */
   }
 }
 
-/* -------------------------------------------------- */
+
 /* foooter */
 @media (max-width: 768px) {
   #footer-2-2 {
@@ -208,7 +254,7 @@ ul {
   font-size: 0.9375rem;
   font-weight: 700;
 }
-/* ----------------------------------------- */
+
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -230,54 +276,6 @@ ul {
 }
 @media (min-width: 991px) {
   #img-fe {
-    display: block; /* Show on screens wider than or equal to 798px */
+    display: block;
   }
-}
-.navbar-toggler{
-  border: none !important;
-color: black !important;
-}
- /* Custom styling for scrollable images */
-.scrollable-images {
-display: none; /* Initially hide the scrollable images */
-overflow-x: auto;
-white-space: nowrap;
-max-height: 200px; /* Adjust max height as needed */
-margin-top: 10px;
-}
-.scrollable-images img {
-display: inline-block;
-max-width: 140px; /* Adjust max width of images */
-height: auto;
-margin-right: 10px; /* Adjust spacing between images */
-}
-
-/* Positioning for custom UI */
-.custom-ui {
-position: absolute;
-top: 100%;
-left: 0;
-width: 100%; /* Full width */
-background-color: #000000;
-padding: 10px;
-z-index: 1000; /* Ensure it's above navbar */
-display: none; /* Initially hide */
-scrollbar-color: black black;
-}
-.custom-ui.show {
-display: block; /* Show when toggled */
-}
-
-/* Adjust form elements for full-width input */
-.custom-ui .form-inline .form-control {
-width:100%; /* Adjust based on button width and spacing */
-}
-.custom-ui .form-inline .btn {
-width: 100px; /* Adjust button width */
-}
-.bg-dark {
-background-color: #000000 !important;}
-
-.nav-link{
-color: white !important;
 }
