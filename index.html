@@ -21,7 +21,7 @@
       type="image/x-icon"
     />
 
- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navbar starts here -->
@@ -29,7 +29,8 @@
       <div class="container">
         <button
           class="navbar-toggler"
-          type="button" id="customToggler"
+          type="button"
+          id="customToggler"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="customUI"
@@ -42,7 +43,7 @@
           ><img src="assets/svg/logo.svg" alt=""
         /></a>
 
-        <div class="collapse navbar-collapse" >
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link mx-lg-2" aria-current="page" href="#">Games</a>
@@ -77,49 +78,54 @@
             </li>
           </ul>
         </div>
-           <div id="customUI" class="custom-ui">
-      <div class="bg-dark text-white p-4">
-        <!-- Search form -->
-        <form class="form-inline mb-3">
-          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-        </form>
+        <div id="customUI" class="custom-ui">
+          <div class="bg-dark text-white p-4">
+            <!-- Search form -->
+            <form class="form-inline mb-3">
+              <input
+                class="form-control mr-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
 
-        <!-- Scrollable images -->
-        <div class="scrollable-images">
-          <img src="assets/images/nav-img1.jpg" alt="Image 1">
-          <img src="assets/images/nav-img2.jpg" alt="Image 1">
-          <img src="assets/images/nav-img3.jpg" alt="Image 1">
-          <img src="assets/images/nav-img4.jpg" alt="Image 1">
-          <img src="assets/images/nav-img5.jpg" alt="Image 1">
-          <!-- <img src="assets/images/image2.jpg" alt="Image 2">
+            <!-- Scrollable images -->
+            <div class="scrollable-images">
+              <img src="assets/images/nav-img1.jpg" alt="Image 1" />
+              <img src="assets/images/nav-img2.jpg" alt="Image 1" />
+              <img src="assets/images/nav-img3.jpg" alt="Image 1" />
+              <img src="assets/images/nav-img4.jpg" alt="Image 1" />
+              <img src="assets/images/nav-img5.jpg" alt="Image 1" />
+              <!-- <img src="assets/images/image2.jpg" alt="Image 2">
           <img src="assets/images/image3.jpg" alt="Image 3"> -->
-          <!-- Add more images as needed -->
-        </div>
-        
-        <hr class="my-3">
+              <!-- Add more images as needed -->
+            </div>
 
-        <!-- Additional content below default navbar items -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Newswire</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Downloads</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Stores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
-          </li>
-          <!-- Add more custom items as needed -->
-        </ul>
-      </div>
-    </div>
+            <hr class="my-3" />
+
+            <!-- Additional content below default navbar items -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Newswire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Downloads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <!-- Add more custom items as needed -->
+            </ul>
+          </div>
+        </div>
         <a href="#" class="login-button"
           ><img src="assets/svg/profile.svg" alt="" width="30"
         /></a>
@@ -196,7 +202,11 @@
           <div class="custom-text" id="customText"></div>
           <div id="carouselExampleIndicators" class="false" data-ride="false">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li
+                data-target="#carouselExampleControls"
+                data-slide-to="0"
+                class="active"
+              ></li>
               <li data-target="#carouselExampleControls" data-slide-to="1"></li>
               <li data-target="#carouselExampleControls" data-slide-to="2"></li>
               <li data-target="#carouselExampleControls" data-slide-to="3"></li>
@@ -204,8 +214,8 @@
           </div>
         </div>
       </div>
-        <!-- <h1>hello</h1> -->
-      </div>
+      <!-- <h1>hello</h1> -->
+    </div>
 
     <!-- first page hero section ends here -->
 
@@ -518,64 +528,65 @@
 
     <!-- --------------------------------------------------- -->
 
+    <!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script>
-  // JavaScript to toggle custom UI collapse
-  $('#customToggler').on('click', function () {
-    $('.custom-ui').toggleClass('show');
-    $('.scrollable-images').toggle(); // Toggle visibility of scrollable images
-  });
-</script>
-
-
-
-
-
-
+    <script>
+      // JavaScript to toggle custom UI collapse
+      $("#customToggler").on("click", function () {
+        $(".custom-ui").toggleClass("show");
+        $(".scrollable-images").toggle(); // Toggle visibility of scrollable images
+      });
+    </script>
 
     <!-- js for carousal -->
-     <script>
+    <script>
       const textArray = [
-    "<p class='fw-bold pt-5 first-p'>Grand Theft Auto VI</p><h2 class='fw-bold first-h'>Trailer 1</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
-    "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>Bottom Dollar Bounties</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
-    "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>Benefactor Takes Over the GTA Online Auto Scene</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
-    "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>The Cluckin’ Bell Farm Raid</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
-  ];
+        "<p class='fw-bold pt-5 first-p'>Grand Theft Auto VI</p><h2 class='fw-bold first-h'>Trailer 1</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
+        "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>Bottom Dollar Bounties</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
+        "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>Benefactor Takes Over the GTA Online Auto Scene</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
+        "<p class='fw-bold pt-5 first-p'>Grand Theft Auto Online</p><h2 class='fw-bold first-h'>The Cluckin’ Bell Farm Raid</h2><button type='button' class='btn btn-outline-light text-white fw-bold secbtn mt-5'>WATCH NOW</button>",
+      ];
 
-  // Set initial text
-  document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("customText").innerHTML = textArray[0];
-  });
+      // Set initial text
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("customText").innerHTML = textArray[0];
+      });
 
-  // Event listener for indicator clicks
-  const indicators = document.querySelectorAll("#carouselExampleIndicators li");
-  indicators.forEach((indicator, index) => {
-    indicator.addEventListener("click", () => {
-      const carousel = document.getElementById("carouselExampleControls");
-      const bsCarousel = new bootstrap.Carousel(carousel);
-      bsCarousel.to(index); // Go to the corresponding slide
+      // Event listener for indicator clicks
+      const indicators = document.querySelectorAll(
+        "#carouselExampleIndicators li"
+      );
+      indicators.forEach((indicator, index) => {
+        indicator.addEventListener("click", () => {
+          const carousel = document.getElementById("carouselExampleControls");
+          const bsCarousel = new bootstrap.Carousel(carousel);
+          bsCarousel.to(index); // Go to the corresponding slide
 
-      // Update active state for indicators
-      indicators.forEach((indicator) => indicator.classList.remove("active"));
-      indicator.classList.add("active");
-    });
-  });
+          // Update active state for indicators
+          indicators.forEach((indicator) =>
+            indicator.classList.remove("active")
+          );
+          indicator.classList.add("active");
+        });
+      });
 
-  // Event listener for when the carousel slides
-  document.getElementById("carouselExampleControls").addEventListener("slid.bs.carousel", function(event) {
-    const index = event.to;
-    document.getElementById("customText").innerHTML = textArray[index];
+      // Event listener for when the carousel slides
+      document
+        .getElementById("carouselExampleControls")
+        .addEventListener("slid.bs.carousel", function (event) {
+          const index = event.to;
+          document.getElementById("customText").innerHTML = textArray[index];
 
-    // Update active state for indicators
-    indicators.forEach((indicator) => indicator.classList.remove("active"));
-    indicators[index].classList.add("active");
-  });
-     </script>
+          // Update active state for indicators
+          indicators.forEach((indicator) =>
+            indicator.classList.remove("active")
+          );
+          indicators[index].classList.add("active");
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
