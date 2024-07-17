@@ -1,241 +1,283 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
-  background-color:#000000;
+body {
+  background-color: #000000;
   color: white;
   box-sizing: border-box;
 }
 
-
 /* navbar css starts here */
-@media (max-width:1199px) {
-.navbar-collapse{
-  padding-left: 52px;
- 
-}
-.first-p{
-  font-size: 13px;
-  padding-left: 20px;
-}
-.first-h{
-  font-size: 20px;
-  padding-left: 20px;
-}
-#footer1-btn{
-  margin-left: 2px !important;
-
-  
-}
-.btn{
-  position: relative;
+@media (max-width: 1199px) {
+  .navbar-collapse {
+    padding-left: 52px;
+  }
+  .first-p {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .first-h {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  #footer1-btn {
+    margin-left: 2px !important;
+  }
+  .btn {
+    position: relative;
+  }
 }
 
-  } 
-
-  @media (min-width:1199px) {
-      .navbar-collapse{
-          padding-left: 194px;
-      }
-      
-          } 
-          .navbar{
+@media (min-width: 1199px) {
+  .navbar-collapse {
+    padding-left: 194px;
+  }
+}
+.navbar {
   height: 80px;
   border-bottom: 1px solid #313131;
 }
 .nav-link {
   color: white;
 }
-.btn{
+.btn {
   width: 139px;
   height: 36px;
   color: black;
-
 }
 
 /* -------------------------------------------------------- */
 
-
-.secbtn{
+.secbtn {
   width: 244px;
   height: 61px;
 }
-.secbtn:hover{
+.secbtn:hover {
   background-color: #fcaf17;
   color: black !important;
   border: none;
 }
 /* ----------------------------------------------------- */
 
-.cardsec{
-  border:1px solid  #313131;
+.cardsec {
+  border: 1px solid #313131;
   /* width: 22rem !important;
-  height: 40rem; */
+height: 40rem; */
   background-color: black;
 }
-.card-body{
+.card-body {
   background-color: black;
   color: white;
- 
-   
 }
 
-.cardthre{
+.cardthre {
   border: none;
   /* width: 15.5rem !important; */
-
 }
 /* ------------------------------------ */
 
-#btn-middle{
-  border-bottom: 4px solid   #fcaf17;
+#btn-middle {
+  border-bottom: 4px solid #fcaf17;
   border-radius: 1px;
   width: 121px;
   font-size: 20px;
-
 }
-#btn-middle:hover{
+#btn-middle:hover {
   background-color: #fcaf17;
   color: #000000 !important;
   border-radius: 10px;
   transition: 0.2s;
 }
 
-
-
 /* ----------------------------------------------- */
 
-  /* css featured section starts here */
-  #img-fe{
-    border-radius: 10px;
-  }
-  #img-fe {
+/* css featured section starts here */
+#img-fe {
+  border-radius: 10px;
+}
+#img-fe {
   display: block; /* Show by default */
-  }
-  
-  @media (min-width: 798px) {
+}
+
+@media (min-width: 798px) {
   #img-fe2 {
     display: none; /* Hide on screens wider than 797px */
   }
-  }
-  
-  /* Show img-fe2 only on screens wider than or equal to 798px */
-  #img-fe {
+}
+
+/* Show img-fe2 only on screens wider than or equal to 798px */
+#img-fe {
   display: none; /* Hide by default */
-  }
-  
-  @media (min-width: 798px) {
+}
+
+@media (min-width: 798px) {
   #img-fe {
     display: block; /* Show on screens wider than or equal to 798px */
   }
-  }
-  
-
-  /* -------------------------------------------------- */
-  /* foooter */
-@media (max-width:768px) {
-  #footer-2-2{
-     display: flex;
-     justify-content: center;
-     align-items: end;
-     /* font-size:  0.8rem; */
-  }
-
-  .last-container{
-     font-size:  12px;
-     /* width: 20vw; */
-  }
-  #footer-flex{
-      display: flex;
-      flex-direction: column;
-      font-size: 16px;
-     
-   
-  }
-  #footer-flex a{
-     padding-top: 20px;
-  }
-  .dropup{
-     padding-top: 40px;
-  }
-  #footer-2{
-     
-padding-top: 15px;
-  }
-  #footer-3{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding-top: 15px;
-
-  }
-
 }
 
-#footer-1{
-font-size: 1.25rem;
+/* -------------------------------------------------- */
+/* foooter */
+@media (max-width: 768px) {
+  #footer-2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* font-size:  0.8rem; */
+  }
 
+  .last-container {
+    font-size: 12px;
+    /* width: 20vw; */
+  }
+  #footer-flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  #footer-flex a {
+    padding-top: 20px;
+  }
+  .dropup {
+    padding-top: 40px;
+  }
+  #footer-2 {
+    padding-top: 15px;
+  }
+  #footer-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+  }
 }
-.right span{
-  font-size:  0.9375rem;
+
+#footer-1 {
+  font-size: 1.25rem;
 }
-#footer1-btn{
+.right span {
+  font-size: 0.9375rem;
+}
+#footer1-btn {
   background-color: black;
-  font-size:  0.9375rem;
-color: white;
-border: none;
-margin-left: 52px;
-
-
+  font-size: 0.9375rem;
+  color: white;
+  border: none;
+  margin-left: 52px;
 }
-#footer1-btn ul li >a{
- color: white;
+#footer1-btn ul li > a {
+  color: white;
 }
-.btn2{
- border: none;
+.btn2 {
+  border: none;
 }
 
-#footer1-btn:active{
- outline: 1px solid white;
+#footer1-btn:active {
+  outline: 1px solid white;
 }
-.show>li>a:hover{
- color: black !important;
- /* background-color: #fcaf17; */
-
+.show > li > a:hover {
+  color: black !important;
+  /* background-color: #fcaf17; */
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
-
 }
-#last-footer{
- 
- /* margin-top: 350px */
- padding-top: 50px;
- /* padding-bottom: 16px; */
- height: 153px !important;
-
+#last-footer {
+  /* margin-top: 350px */
+  padding-top: 50px;
+  /* padding-bottom: 16px; */
+  height: 153px !important;
 }
-#list-footer{
-
- list-style: none;
-}
-#list-footer li a{
- color:#908b8b;
-}
-ul{
+#list-footer {
   list-style: none;
-  
 }
-#footer-3 ul li a{
+#list-footer li a {
+  color: #908b8b;
+}
+ul {
+  list-style: none;
+}
+#footer-3 ul li a {
   text-decoration: none;
-  
 }
 
+.last-container {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+/* ----------------------------------------- */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px; /* Adjust position as needed */
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+.carousel-indicators .active {
+  width: 40px;
+  border-radius: 10px / 90%;
+  background-color: rgb(255, 255, 255);
+}
+@media (min-width: 991px) {
+  #img-fe {
+    display: block; /* Show on screens wider than or equal to 798px */
+  }
+}
+.navbar-toggler{
+  border: none !important;
+color: black !important;
+}
+ /* Custom styling for scrollable images */
+.scrollable-images {
+display: none; /* Initially hide the scrollable images */
+overflow-x: auto;
+white-space: nowrap;
+max-height: 200px; /* Adjust max height as needed */
+margin-top: 10px;
+}
+.scrollable-images img {
+display: inline-block;
+max-width: 140px; /* Adjust max width of images */
+height: auto;
+margin-right: 10px; /* Adjust spacing between images */
+}
 
-.last-container{
- font-size:  0.9375rem;
-font-weight: 700;
+/* Positioning for custom UI */
+.custom-ui {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%; /* Full width */
+background-color: #000000;
+padding: 10px;
+z-index: 1000; /* Ensure it's above navbar */
+display: none; /* Initially hide */
+scrollbar-color: black black;
+}
+.custom-ui.show {
+display: block; /* Show when toggled */
+}
+
+/* Adjust form elements for full-width input */
+.custom-ui .form-inline .form-control {
+width:100%; /* Adjust based on button width and spacing */
+}
+.custom-ui .form-inline .btn {
+width: 100px; /* Adjust button width */
+}
+.bg-dark {
+background-color: #000000 !important;}
+
+.nav-link{
+color: white !important;
 }

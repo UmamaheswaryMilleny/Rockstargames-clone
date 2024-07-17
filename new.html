@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Toggler and Custom UI</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styling for scrollable images */
+    .scrollable-images {
+      display: none; /* Initially hide the scrollable images */
+      overflow-x: auto;
+      white-space: nowrap;
+      max-height: 200px; /* Adjust max height as needed */
+      margin-top: 10px;
+    }
+    .scrollable-images img {
+      display: inline-block;
+      max-width: 100px; /* Adjust max width of images */
+      height: auto;
+      margin-right: 10px; /* Adjust spacing between images */
+    }
+
+    /* Positioning for custom UI */
+    .custom-ui {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%; /* Full width */
+      background-color: #343a40;
+      padding: 10px;
+      z-index: 1000; /* Ensure it's above navbar */
+      display: none; /* Initially hide */
+    }
+    .custom-ui.show {
+      display: block; /* Show when toggled */
+    }
+
+    /* Adjust form elements for full-width input */
+    .custom-ui .form-inline .form-control {
+      width:100%; /* Adjust based on button width and spacing */
+    }
+    .custom-ui .form-inline .btn {
+      width: 100px; /* Adjust button width */
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top" style="background-color: black;">
+  <div class="container">
+    <!-- Navbar brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/svg/logo.svg" alt="Logo">
+    </a>
+
+    <!-- Custom toggler button -->
+    <button class="navbar-toggler" type="button" id="customToggler" aria-controls="customUI"
+      aria-expanded="false" aria-label="Toggle custom UI">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar collapse content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!-- Default navigation links -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Newswire</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Store</a>
+        </li>
+      </ul>
+      <!-- Login button -->
+      <a href="#" class="login-button ml-4">
+        <img src="assets/svg/profile.svg" alt="Profile" width="30">
+      </a>
+    </div>
+
+    <!-- Custom UI content (initially hidden) -->
+    <div id="customUI" class="custom-ui">
+      <div class="bg-dark text-white p-4">
+        <!-- Search form -->
+        <form class="form-inline mb-3">
+          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+
+        <!-- Scrollable images -->
+        <div class="scrollable-images">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <img src="assets/images/card1.jpg" alt="Image 1">
+          <!-- <img src="assets/images/image2.jpg" alt="Image 2">
+          <img src="assets/images/image3.jpg" alt="Image 3"> -->
+          <!-- Add more images as needed -->
+        </div>
+        
+        <hr class="my-3">
+
+        <!-- Additional content below default navbar items -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Custom Item 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Custom Item 2</a>
+          </li>
+          <!-- Add more custom items as needed -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  // JavaScript to toggle custom UI collapse
+  $('#customToggler').on('click', function () {
+    $('.custom-ui').toggleClass('show');
+    $('.scrollable-images').toggle(); // Toggle visibility of scrollable images
+  });
+</script>
+
+</body>
+</html>
